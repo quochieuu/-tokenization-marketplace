@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  color: #000;
+}
+
+.wrap {
+  background-image: url('https://demoapus2.com/houzing/wp-content/uploads/2021/07/slider6.jpg');
+  height: 40vh;
+  background-position: center center;
+  background-size: cover;
+}
+
+.center-inner-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+.inner-left {
+    margin-top: 10px;
+    width: 75%;
+}
+
+.banner-title {
+    color: #0061DF;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.content h3 {
+    color: #8e8e8e;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.content .form-control {
+    box-shadow: 0px 10px 50px 0px rgb(13 38 59 / 14%);
+    border: none;
+    padding: 7px 20px;
+    font-size: 13px;
+    height: calc(2.5em + .75rem + 2px);
+}
+
+.p-ralative {
+    position: relative;
+}
+
+.btn-atw {
+    position: absolute;
+    right: 8px;
+    top: 0;
+    clear: both;
+    background: #0061DF;
+    margin-top: 7px;
+    font-size: 13px;
+}
+
+.buy-token code {
+    background: #eaeaeaa8;
+    display: block;
+    padding: 8px 15px;
+    padding-top: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #1b1b1b;
+    margin-top: -11px;
+}
+
+.buy-token .balance span {
+    font-weight: 700;
+    color: #0061DF;
+}
+
+.buy-token .tut {
+    color:#848484;
+}
+
+.bmt-btn {
+    background: #0061DF;
+    font-size: 13px;
+}
+
+.footer-sign {
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+    transform: translateX(-30%);
+}
+
+.footer-sign img {
+    width: 170px;
+    opacity: 0.7;
+}
+
+.product-item {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(33 33 33 / 5%) 2px 0px 10px 3px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+}
+
+.product-item__thumb {
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-item:hover {
+    box-shadow: rgb(29 29 29 / 12%) 2px 0px 10px 3px;
+}
+
+.shop-space {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.product-item__thumb img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-item__title {
+    font-weight: 600;
+    margin-top: 7px;
+    color: #282b2e;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.product-item__address {
+    font-size: 12px;
+    color: #767676;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.product-item__price {
+    font-size: 16px;
+}
+
+.product-item__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-item__buy .purchase {
+    background: #d2e8ff4f;
+    font-size: 13px;
+    padding: 2px 9px;
+    border: 1px solid #0062cc75;
+    border-radius: 4px;
+    color: #0764c8;
+    font-weight: 500;
+}
+
+.product-item__buy .purchase:hover {
+    box-shadow: 2px 2px 2px;
+}
+
+.product-item__buy .purchase.sold-out {
+    background: #dc354514;
+    border: 1px solid #dc3545;
+    color: #dc3545;
+}
+
+.product-item__price {
+    color: #3f3f3f;
+}
+
+.product-item__price strong {
+    color: #006ce0;
+    margin-right: 4px;
+}
+
+.market-title:after {
+    content: "Marketplace";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #cccccc78;
+    z-index: -1;
+    letter-spacing: 4px;
+    margin-top: 8px;
+    font-weight: 700;
+}
+
+.market-title {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #225c9c;
+    position: relative;
+}
+
+button:focus,
+button:hover {
+    outline: none;
+}
+
+.bcbtn {
+    font-size: 12px;
+    background: #0062cc;
+    box-shadow: 2px 2px 2px #0062cc69;
+}
